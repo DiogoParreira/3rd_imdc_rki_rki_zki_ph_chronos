@@ -1,4 +1,6 @@
 # Chronos 2
+The model used in this repo is a univariate Chronos 2 model. The model takes a historical context window as input and conditions its predictions on the observed data to forecast a specified number of future time steps.
+
 The Chronos-2 model used is based on Amazon's Chronos-2 (model id ``amazon/chronos-2``), accessed via
 the ``chronos-forecasting`` package (``pip install "chronos-forecasting>=2.0"``)
 
