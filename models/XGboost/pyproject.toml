@@ -1,0 +1,19 @@
+[project]
+name = "xgboost-model"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "data-catalog",
+    "pandas",
+    "numpy",
+    "xgboost",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "jupyter",
+    "ipykernel",
+    "joblib>=1.5.3",
+]
+
+[tool.uv.sources]
+data-catalog = { path = "../../data_catalog", editable = true }
