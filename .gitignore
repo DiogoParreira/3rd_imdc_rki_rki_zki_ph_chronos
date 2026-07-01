@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+env/
+data_catalog/**/*.csv
+data_catalog/**/*.csv.gz
+data_catalog/**/*.gpkg
+.ipynb_checkpoints/
+.DS_Store
+*.log
+data/
+chronos_model/utils/model.safetensors
